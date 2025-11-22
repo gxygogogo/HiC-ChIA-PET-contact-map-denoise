@@ -19,4 +19,4 @@
 
 ### step6：预测结果可视化
 使用run.heatmap_plot.R将merged Matrix进行可视化
-[]
+![SRHiC]()
