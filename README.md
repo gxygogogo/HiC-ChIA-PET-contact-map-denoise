@@ -1,5 +1,6 @@
 # Contact Map 热图去噪
 ## HiCPlus
+![HiCPlus](https://github.com/gxygogogo/HiC-ChIA-PET-contact-map-denoise/blob/main/result/HiCPlus.png)
 
 ## SRHiC
 ### step1: 获取Valid pair格式文件
@@ -19,4 +20,4 @@
 
 ### step6：预测结果可视化
 使用run.heatmap_plot.R将merged Matrix进行可视化
-![SRHiC]()
+![SRHiC](https://github.com/gxygogogo/HiC-ChIA-PET-contact-map-denoise/blob/main/result/SRHiC.png)
