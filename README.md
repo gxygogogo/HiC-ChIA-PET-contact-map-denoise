@@ -1,5 +1,12 @@
 # Contact Map 热图去噪
 ## HiCPlus
+### Step1: 训练
+直接使用train_models.py脚本对hic文件进行训练
+### Step2: 预测
+基于上一步训练好的模型，使用pred_chromosome.py进行逐条染色体预测，最后回拼为全基因组热图
+### Step3: 绘图
+使用plot_HicMatrix.py进行Contact Map热图绘制
+
 ![HiCPlus](https://github.com/gxygogogo/HiC-ChIA-PET-contact-map-denoise/blob/main/result/HiCPlus.png)
 
 ## SRHiC
